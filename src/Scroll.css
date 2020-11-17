@@ -1,0 +1,16 @@
+.scrollDesign {
+  overflow-y: scroll;
+  border: 1px solid black;
+  height: 50em;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scrollDesign::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.scrollDesign {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
